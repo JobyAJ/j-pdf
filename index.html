@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Generate the PDF and Screenshot">
+    <meta name="keywords" content="pdf generation, screenshot print , pdf with screenshot, j-pdf, invoice print">
+    <meta name="author" content="Joby AJ">
+
+
+    <link rel="stylesheet" href="css/j-pdf.min.css">
+
+    <title>JPDF</title>
+
+</head>
+
+<body>
+
+    <div class="j-pdf-wrap">
+        <div class="j-pdf-wrap-head">
+            <button class="j-pdf__btn pdf__screenshot">Screenshot</button>
+            <button class="j-pdf__btn pdf__gen">Download PDF</button>
+        </div>
+        <div class="j-pdf-block">
+            <div class="j-pdf-head">Invoice</div>
+            <div class="j-pdf-body">
+                <div class="j-pdf-body__order">
+                    <div class="j-pdf-body__order-in">
+                        <span>Order No: </span>
+                        <div>1234567890SDFGHJK45678</div>
+                    </div>
+                    <div class="j-pdf-body__order-in">
+                        <span>Invoice No: </span>
+                        <div>1234567890SDFGHJK45678</div>
+                    </div>
+                    <div class="j-pdf-body__order-in">
+                        <span>Order Date: </span>
+                        <div>24 Nov 22</div>
+                    </div>
+                </div>
+            </div>
+            <div class="j-pdf-footer">Thank you!</div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="js/html2canvas.js"></script>
+    <script src="js/jspdf.js"></script>
+    <script src="js/j-pdf.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
