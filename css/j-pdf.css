@@ -46,6 +46,7 @@
   border-radius: 30px;
   font-size: 14px;
   font-weight: normal;
+  cursor: pointer;
 }
 .j-pdf-block {
   width: 100%;
