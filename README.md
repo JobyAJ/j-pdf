@@ -4,7 +4,6 @@ What is this?
 This is for the pdf printing, with the help of html2canvas and jspdf. j-pdf used for sipmly print the screenshots and the pdf , maily foucsed for the bill printings
 
 Installation
-
 ---
 
 Simply add the css and js files, Do not forget to add the jQuery file. And no any frameworks required. you can find the uncompressed files, and also do to manipulate all the codes with your needs.
@@ -18,7 +17,6 @@ Simply add the css and js files, Do not forget to add the jQuery file. And no an
 ```
 
 Supporting features
-
 ---
 
 - screenshot generation
@@ -26,7 +24,6 @@ Supporting features
 - pdf gererates with auto pages
 
 Usage
-
 ---
 
 ```
